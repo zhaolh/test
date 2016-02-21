@@ -47,7 +47,7 @@ def entryExit(f):
         print "Entering ", f.__name__
         f()
         print "Exited ", f.__name__
-    new_f.__name__ = f.__name__
+    #new_f.__name__ = f.__name__
     return new_f
 
 @entryExit
